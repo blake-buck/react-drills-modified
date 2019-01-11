@@ -1,0 +1,35 @@
+div{text-align:center;}
+.SheevRow img{
+	width:300px;
+	margin-left:9%;
+	margin-top:5%;
+}
+h1,h2{
+	text-align:center;
+}
+button{
+	margin-left:5%;
+}
+.spin{
+	animation: spin 10s linear;
+	animation-iteration-count:infinite;
+}
+.fastSpin{
+	animation: spin 2s;
+	animation-iteration-count:infinite;
+}
+
+div.Login{
+	display:flex;
+	justify-content:center;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
